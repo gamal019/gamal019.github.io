@@ -245,9 +245,11 @@
   }
   .single-recent-blog-post{
       margin-bottom: 30px;
-				img{
-					transition: all 0.7s linear;
-				}
+      .thumb{
+          overflow: hidden;
+          img{
+              transition: all 0.7s linear;
+          }
       }
       .details{
           padding-top: 30px;
@@ -270,7 +272,7 @@
               transform: scale(1.23) rotate(10deg);
           }
       }
-  
+  }
   .tags{
       .tag_btn{
           font-size: 12px;
